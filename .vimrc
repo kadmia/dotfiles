@@ -72,8 +72,8 @@ nnoremap <F5> :buffers<CR>:buffer<Space>
 " disable arrow keys
 map <up> <nop>
 map <down> <nop>
-map <left> <nop>
-map <right> <nop>
+map <left> :bp <CR>
+map <right> :bn <CR>
 imap <up> <nop>
 imap <down> <nop>
 imap <left> <nop>
